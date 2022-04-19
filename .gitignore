@@ -1,0 +1,6 @@
+# Idea Project
+.idea/
+# Python
+__pycache__
+# virtual environment
+venv
