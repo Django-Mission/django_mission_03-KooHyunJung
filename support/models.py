@@ -7,7 +7,7 @@ User = get_user_model()
 
 # Create your models here.
 # Inquiry 카테고리, 타이틀, 이메일, 이메일체크, 번호, 번호체크, 내용, 생성자, 이미지, [최종 수정일시, 생성일시]
-# Answer 답변 내용, 참조 문의글, 생성자, 최종 수정자, [최종 수정 일시, 생성 일시]
+# Answer 답변 내용, 참조 문의글, 생성자 [최종 수정 일시, 생성 일시]
 
 class Inquiry(BaseModel):
     CATEGORY_CHOICE = (
